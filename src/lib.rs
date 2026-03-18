@@ -12,7 +12,7 @@ pub fn get_greeting() -> String {
 }
 
 impl Question {
-    fn save(&self) {
+    pub fn save(&self) {
         println!("Sawed question: {}", self.question);
     }
 }
