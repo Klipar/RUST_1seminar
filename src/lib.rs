@@ -1,8 +1,9 @@
 //! Quizzer library
 
-struct Question {
-    question: String,
-    options: [String; 4],
+#[derive(Debug)]
+pub struct Question {
+    pub question: String,
+    pub options: [String; 4],
 }
 
 /// Returns a greeting message
